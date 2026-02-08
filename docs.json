@@ -1,0 +1,48 @@
+{
+  "name": "My Documentation",
+  "logo": "/logo.svg",
+
+  "navbar": [
+    {
+      "label": "Docs",
+      "path": "/introduction"
+    },
+    {
+      "label": "API",
+      "path": "/api/overview"
+    }
+  ],
+
+  "sidebar": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction",
+        "getting-started",
+        "installation"
+      ]
+    },
+    {
+      "group": "Core Concepts",
+      "pages": [
+        "concepts/architecture",
+        "concepts/configuration"
+      ]
+    },
+    {
+      "group": "API",
+      "pages": [
+        "api/overview",
+        "api/authentication",
+        "api/endpoints"
+      ]
+    },
+    {
+      "group": "Advanced",
+      "pages": [
+        "advanced/webhooks",
+        "advanced/errors"
+      ]
+    }
+  ]
+}
