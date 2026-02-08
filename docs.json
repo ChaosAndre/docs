@@ -1,22 +1,24 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
   "name": "Docs",
+  "theme": "mint",
   "colors": {
     "primary": "#2563eb"
   },
-  "navbar": [
-    { "label": "Docs", "path": "/introduction" },
-    { "label": "API", "path": "/api/overview" }
-  ],
+  "navbar": {
+    "links": [
+      {
+        "label": "Docs",
+        "path": "/introduction"
+      }
+    ]
+  },
   "sidebar": [
     {
       "group": "Getting Started",
-      "pages": ["introduction", "getting-started"]
-    },
-    {
-      "group": "API",
-      "pages": ["api/overview", "api/authentication"]
+      "pages": [
+        "introduction"
+      ]
     }
   ]
 }
